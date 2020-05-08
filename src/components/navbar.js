@@ -29,13 +29,7 @@ const Example = (props) => {
             <NavItem>
               <NavLink href="/aboutme">About Me</NavLink>
             </NavItem>
-            <NavItem>
-              <NavLink href="/resume">Resume</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/projects">Projects</NavLink>
-            </NavItem>
-            <NavItem>
+          <NavItem>
               <NavLink href="/contact">Contact</NavLink>
             </NavItem>
             {/* <UncontrolledDropdown nav inNavbar>
