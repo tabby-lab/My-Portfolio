@@ -11,23 +11,30 @@ body {
 }
 
 nav{
-  background-color: black;
+  background-color:white;
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color:wheat;
+  color:black
 }
 
 
 .btn{
-  background-color: #2f2f30
+  background-color: grey;
+  color: black
 }
 
 .dropdown-content{
   background-color: #2f2f30
 }
-.navbar-light{
-  color:wheat;
+
+
+.navbar-brand{
+  background-color:white;
+}
+
+.nav-link{
+  background-color: white;
 }
 
 .aboutMe{
@@ -75,47 +82,11 @@ nav{
   margin-top: 5%;
 }
 
-/* .display-4{
-  justify-content: center;
-  text-align: center;
- 
-
-}  */
-#lang{
-  text-align: center;
-  justify-content: center;
-  margin-left: 60px;
-}
-.welcome{
-  text-align: center;
-  justify-content: center;
-  margin-left: 80px;
-}
-
-.mainBio{
-  
-  margin:0 auto;
-  z-index: 1000;
-  height:30px;
-} */
-
-.text-center {
-  text-align: center;
-}
-
-.jumbotron{
-  background-color: rgb(119, 112, 112);
-}
-.main_bio{
-  color:rgb(0, 0, 0);
-  flex-wrap: wrap;
-  float:left;
-  margin-left:80px;
-  }
 
 .social{
   font-size:3.0em;
-  padding:0
+  padding:0;
+  
 }
 
 .nav-wrapper{
@@ -123,11 +94,29 @@ nav{
 }
 
 a{
-  background-color: #2f2f30
+  padding:3px;
 }
 
 .social{
   font-size: 40px;
+  justify-content: center;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 40px;
+  
+}
+
+i{
+  background-color: black;
+  
+}
+
+.fab{
+color:rgb(180, 163, 163)
+}
+
+path{
+  color:black;
 }
 
 .card-img-top{
@@ -142,9 +131,34 @@ a{
 .card-img-top{
 height:170px;
 }
-
+/* 
 #projects{
   padding:0;
  margin-top:50px;
+} */
+
+#connect{
+  margin-left: 20%;
+  text-align: center;
 }
 
+#projects{
+  justify-content: center;
+  text-align: center;
+margin: auto;
+
+}
+
+.project{
+  justify-content: center;
+}
+
+.container-fluid{
+  display: inline-block
+}
+
+.link{
+  justify-content: center;
+  display: inline-block;
+  text-align: center;
+}
