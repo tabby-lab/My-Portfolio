@@ -11,7 +11,7 @@ render(){
           <Label for="exampleEmail">Email</Label>
           <Input type="email" name="email" id="exampleEmail" placeholder="with a placeholder" />
           <Input type="textarea" name="text" id="exampleText" />
-          <Button>Submit</Button>
+          <Button>Send</Button>
         </FormGroup>
         </Form>
         </Fragment>
