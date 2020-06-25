@@ -15,7 +15,7 @@ function App() {
     <Router>
  <Navbar />
     <Route exact path={["/","/aboutme"]} component={AboutMe} />
-    <Route exact path="/contact" component={Contact} />
+    <Route exact path={["/","/contact"]} component={Contact} />
 </Router>
 
     
