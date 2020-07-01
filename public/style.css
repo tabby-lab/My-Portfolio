@@ -261,3 +261,18 @@ footer {
   font-size: 13px;
   margin-bottom: 0;
 }
+
+.center-form{
+  width:50%;
+  justify-content: center;
+  display: block;
+  text-align: center;
+}
+
+form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
