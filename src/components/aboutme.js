@@ -22,7 +22,7 @@ class About extends Component {
                     <div className="circle"></div>
                     <img className="img-circle" src="assets1/myPic.jpg" />
                     <h3 className="aboutMe">About Me</h3>
-                    <p className="bio">Full Stack Web Developer with a background in Science and certificate holder in Full Stack Web Development from the University of Texas. Passionate about creating visually enriched web applications and delivering user-centric experiences. Collaborative team player recognized for complex problem solving abilities and strong work ethic. With a background in extensive science research, personable background in customer service, and passion for web development, collaborating with others to create meaningful web applications would be a vision fulfilled.
+                    <p className="bio"><h6>Full Stack Web Developer with a background in Science and certificate holder in Full Stack Web Development from the University of Texas. Passionate about creating visually enriched web applications and delivering user-centric experiences. Collaborative team player recognized for complex problem solving abilities and strong work ethic. With a background in extensive science research, personable background in customer service, and passion for web development, collaborating with others to create meaningful web applications would be a vision fulfilled.</h6>
 
                        </p>
 
