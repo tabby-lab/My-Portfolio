@@ -15,6 +15,7 @@ function App() {
 
     <Router>
  <Navbar />
+
  <Switch>
     <Route exact path={["/","/aboutme"]} component={AboutMe} />
     <Route exact path={["/","/contact"]} component={Contact} />

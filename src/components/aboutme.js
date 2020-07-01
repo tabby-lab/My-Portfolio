@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Toggle from './toggle'
+
 
 class About extends Component {
     render() {
@@ -54,8 +56,11 @@ class About extends Component {
 
                 </div>
 
+             
+
                 
                         <div className="container-fluid tech">
+                       
                             <div className="row">
 
                             <i className="fab fa-html5 tech"></i>
@@ -84,19 +89,26 @@ class About extends Component {
 
                      
                             <i className="fab fa-js tech"></i>
+
+
+
+
+                            <i className="fa fa-database"></i>
                            
                         
 
 
                        
-                            <img src="https://img.icons8.com/metro/26/000000/sql.png" />
+                            
                             
                         </div>
                         </div>
-
-
-
-
+            <div className="container">
+                <div className="row pro">
+                <Toggle />
+                
+                </div>
+                </div>
         </div>        
 
 

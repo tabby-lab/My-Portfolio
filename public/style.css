@@ -98,11 +98,12 @@ a{
 }
 
 .social{
-  font-size: 40px;
+  
   justify-content: center;
   display: inline-block;
   text-align: center;
   margin-bottom: 40px;
+
   
 }
 
@@ -138,10 +139,10 @@ height:170px;
  margin-top:50px;
 } */
 
-#connect{
+/* #connect{
   margin-left: 20%;
   text-align: center;
-}
+} */
 
 #projects{
   justify-content: center;
@@ -200,5 +201,16 @@ form
 
 .tech{
 margin: 10px;
-size:3x
+font-size: 40px;
 }
+
+.sql{
+  size:1px
+}
+
+.pro{
+  margin: 10px;
+  font-size: 10px;
+  padding:10px
+  }
+  
