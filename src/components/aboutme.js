@@ -55,109 +55,58 @@ class About extends Component {
                 </div>
 
                 
+                        <div className="container-fluid tech">
+                            <div className="row">
+
+                            <i className="fab fa-html5 tech"></i>
+                       
+
+                       <i className="fab fa-bootstrap tech"></i>
+                            
 
 
-                {/* <div className="container-fluid padding">
-                    <div className="row padding">
-                        <div className="col-md-4">
-                            <div className="card">
-                                <img className="card-img-top" src="./assets1/project.png" />
-                                <div className="card-body">
+                       
 
-                                    <a href="https://tabby-lab.github.io/project1/" className="btn btn-outline-secondary">
-                                        Forever Furry Friends </a>
-                                </div>
-                            </div>
+                       
+                            <i className="fab fa-css3-alt tech"></i>
+                            
+
+                     
+
+                      
+                            <i className="fab fa-react tech"></i>
+                            
+                     
+
+                            <i className="fab fa-node tech"></i>
+                          
+
+
+                     
+                            <i className="fab fa-js tech"></i>
+                           
+                        
+
+
+                       
+                            <img src="https://img.icons8.com/metro/26/000000/sql.png" />
+                            
+                        </div>
                         </div>
 
-                        <div className="col-md-4">
-                            <div className="card">
-                                <img className="card-img-top" src="./assets1/work.png" />
-                                <div className="card-body">
-
-                                    <a href="https://tabby-lab.github.io/Work_Day_Scheduler/"
-                                        className="btn btn-outline-secondary">
-                                        Work Day Scheduler </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-md-4">
-                            <div className="card">
-                                <img className="card-img-top" src="./assets1/weather.png" />
-                                <div className="card-body">
-                                    <a href="https://tabby-lab.github.io/Weather_Dashboard/"
-                                        className="btn btn-outline-secondary">
-                                        Weather App</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> */}
 
 
 
+        </div>        
 
 
+                
 
+              
+                
 
 
                
-                <div className="container-fluid padding">
-                    <div className="row text-center padding">
-
-                        <div className="col-xs-12 col-sm-6 col-md-4">
-                            <i className="fas fa-code"></i>
-                            <h6>HTML5</h6>
-
-                        </div>
-                        <div className="col-xs-12 col-sm-6 col-md-4">
-                            <i className="fas fa-bold"></i>
-                            <h6>BOOTSTRAP</h6>
-
-
-                        </div>
-
-                        <div className="col-xs-12 col-md-4">
-                            <i className="fab fa-css3"></i>
-                            <h6>CSS3</h6>
-
-                        </div>
-
-                        <div className="col-xs-12 col-sm-6 col-md-4">
-                            <i className="fab fa-node"></i>
-                            <h6>Node</h6>
-
-
-                        </div>
-
-                        <div className="col-xs-12 col-sm-6 col-md-4">
-                            <i className="fab fa-js"></i>
-                            <h6>JAVASCRIPT</h6>
-                        </div>
-
-
-                        <div className="col-xs-12 col-sm-6 col-md-4">
-                            <img src="https://img.icons8.com/metro/26/000000/sql.png" />
-                            <h6>SQL</h6>
-                        </div>
-
-
-
-
-
-                    </div>
-
-
-
-
-
-                </div>
-            </div>
-
-
-
-
 
        
 
