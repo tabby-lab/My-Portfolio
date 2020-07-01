@@ -4,7 +4,7 @@ import Navbar from './components/navbar';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import AboutMe from './components/aboutme';
 import Contact from './components/contact';
-import Footer from './components/footer'
+import Footer from './components/footer';
 
 
 

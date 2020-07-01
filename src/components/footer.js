@@ -1,10 +1,11 @@
 import React from 'react';
+import '../App';
 
 
-function index() {
+const Footer = () => {
   return (
     <div className='footer-dark' style={{ padding: "0vh" }}>
-      <footer>
+     
         <div className='container'>
           <p>Tabby Garcia</p>
           <div className='col'>
@@ -33,12 +34,12 @@ function index() {
               <h6>2020 All rights reserved to be badass</h6>
           </div>
         </div>
-      </footer>
+     
     </div>
   );
 }
 
-export default index;
+export default Footer;
 
 {/* <div className="container-fluid padding">
 <div className="row text-center">
