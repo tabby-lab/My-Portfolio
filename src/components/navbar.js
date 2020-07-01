@@ -22,15 +22,15 @@ const Example = (props) => {
   return (
     <div>
       <Navbar  light expand="md">
-        <NavbarBrand href="/"><h3>Tabby Garcia</h3></NavbarBrand>
+        <NavbarBrand href="/"><h3 className="nav-name">Tabby Garcia</h3></NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink href="/aboutme"><h5>About </h5></NavLink>
+              <NavLink href="/aboutme"><h5 className="nav-links">About </h5></NavLink>
             </NavItem>
           <NavItem>
-              <NavLink href="/contact"><h5>Contact </h5></NavLink>
+              <NavLink href="/contact"><h5 className="nav-links">Contact </h5></NavLink>
             </NavItem>
             {/* <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>

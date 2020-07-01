@@ -5,37 +5,31 @@ body {
   margin: 0;
   padding:0;
   background: linear-gradient(-45deg, wheat, rgb(227, 230, 222) );
-	background-size: 400% 400%;
-	animation: gradient 8s ease infinite;
-  
+	/* background-size: 400% 400%; */ 
 }
 
 nav{
-  background-color:white;
+  background-color: #2f2f30;
 }
 
-.navbar-light .navbar-nav .nav-link {
-  color:black
+.nav-name{
+  color:white
+}
+
+.nav-links{
+  color:white
 }
 
 
 .btn{
-  background-color: grey;
-  color: black
+  background-color:black;
+  color:white
 }
 
 .dropdown-content{
   background-color: #2f2f30
 }
 
-
-.navbar-brand{
-  background-color:white;
-}
-
-.nav-link{
-  background-color: white;
-}
 
 .aboutMe{
   color:wheat;
@@ -133,16 +127,7 @@ path{
 .card-img-top{
 height:170px;
 }
-/* 
-#projects{
-  padding:0;
- margin-top:50px;
-} */
 
-/* #connect{
-  margin-left: 20%;
-  text-align: center;
-} */
 
 #projects{
   justify-content: center;
@@ -164,11 +149,6 @@ margin: auto;
   display: inline-block;
   text-align: center;
 }
-/* footer {
-  width: 100%;
-  background-color: #282d32;
-
-} */
 
 
 .center-form{
@@ -185,16 +165,7 @@ form
     margin-right: auto;
     text-align: left;
 }
-/* 
-.blob-two{
-  top:50%;
-  left:50%;
 
-  padding:40px;
-  box-sizing:border-box;
-  border-radius:52% 38% 48% 60% / 49% 50% 54% 55%;
-  background-color: #2f2f30;
-} */
 .row{
   justify-content: center;
 }
