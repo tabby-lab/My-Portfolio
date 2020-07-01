@@ -21,16 +21,16 @@ const Example = (props) => {
 
   return (
     <div>
-      <Navbar color="light" light expand="md">
-        <NavbarBrand href="/">Tabby Garcia</NavbarBrand>
+      <Navbar  light expand="md">
+        <NavbarBrand href="/"><h3>Tabby Garcia</h3></NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink href="/aboutme">About Me</NavLink>
+              <NavLink href="/aboutme"><h5>About </h5></NavLink>
             </NavItem>
           <NavItem>
-              <NavLink href="/contact">Contact</NavLink>
+              <NavLink href="/contact"><h5>Contact </h5></NavLink>
             </NavItem>
             {/* <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
