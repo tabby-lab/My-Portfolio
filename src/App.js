@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import AboutMe from './components/aboutme';
 import Contact from './components/contact';
 import Footer from './components/footer';
+import Projects from './components/projects';
 
 
 
@@ -18,6 +19,7 @@ function App() {
 
  <Switch>
     <Route exact path={["/","/aboutme"]} component={AboutMe} />
+    <Route exact path={["/","/projects"]} component={Projects} />
     <Route exact path={["/","/contact"]} component={Contact} />
     </Switch>
     <Footer />

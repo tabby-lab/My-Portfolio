@@ -3,7 +3,6 @@ import {
   Collapse,
   Navbar,
   NavbarToggler,
-  NavbarBrand,
   Nav,
   NavItem,
   NavLink,
@@ -25,28 +24,15 @@ const Example = (props) => {
             <NavItem>
               <NavLink href="/aboutme"><h5 className="nav-links">About </h5></NavLink>
             </NavItem>
+            <NavItem>
+              <NavLink href="/projects"><h5 className="nav-links">Projects </h5></NavLink>
+            </NavItem>
           <NavItem>
               <NavLink href="/contact"><h5 className="nav-links">Contact </h5></NavLink>
             </NavItem>
-            {/* <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
-                Options
-              </DropdownToggle>
-              <DropdownMenu right>
-                <DropdownItem>
-                  Option 1
-                </DropdownItem>
-                <DropdownItem>
-                  Option 2
-                </DropdownItem>
-                <DropdownItem divider />
-                <DropdownItem>
-                  Reset
-                </DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown> */}
+            
           </Nav>
-          {/* <NavbarText>Simple Text</NavbarText> */}
+          
         </Collapse>
       </Navbar>
     </div>
