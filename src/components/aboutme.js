@@ -43,9 +43,8 @@ class About extends Component {
                     <div className="row padding link">
 
                         <a href="https://github.com/tabby-lab"><i className="fab fa-github"></i></a>
-                        <a href="https://www.facebook.com/tabbitha.garcia?ref=bookmarks"><i
-                            className="fab fa-facebook icon-2x"></i></a>
-                        <a href="https://www.instagram.com/cry_baby1991/"><i className="fab fa-instagram icon-2x"></i></a>
+                        
+                        
                         <a href="https://www.linkedin.com/in/tabbitha-garcia-01164a144/"><i
                             className="fab fa-linkedin icon-2x"></i></a>
                         <a href="Tabby Garcia Resume1.PDF" download>
