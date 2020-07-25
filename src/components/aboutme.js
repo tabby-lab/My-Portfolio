@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Toggle from './toggle'
 
 
 class About extends Component {
@@ -103,13 +102,9 @@ class About extends Component {
                             
                         </div>
                         </div>
-            <div className="container">
-                <div className="row pro">
-                <Toggle />
-                
+           
                 </div>
-                </div>
-        </div>        
+        
 
 
                 

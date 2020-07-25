@@ -7,11 +7,7 @@ import {
   Nav,
   NavItem,
   NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  NavbarText
+  
 } from 'reactstrap';
 
 const Example = (props) => {
@@ -22,7 +18,7 @@ const Example = (props) => {
   return (
     <div>
       <Navbar  light expand="md">
-        <NavbarBrand href="/"><h3 className="nav-name">Tabby Garcia</h3></NavbarBrand>
+        
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
