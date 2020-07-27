@@ -1,29 +1,32 @@
-import React, {  useState }from 'react';
-import ReactCardFlip from 'react-card-flip';
-import '../App.css';
+import React, { Fragment }from 'react';
+import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
+
 
 
 
 const Projects = () => {
   
- const[isFlipped, setIsFlipped] = useState (false);
-
- const handleClick = () => {
-  setIsFlipped(!isFlipped);
- }
+ 
 
  return (
-      <ReactCardFlip isFlipped={isFlipped} flipDirection="vertical">
-        <div>
-          
-          <button onClick={handleClick}><img src= "../assets1/project1.png" alt="project1" className="pro1"></img></button>
-        </div>
- 
-        <div>
-          
-          <button onClick={handleClick}><img src= "../assets1/project1.png" alt="project1" className="pro1"></img></button>
-        </div>
-      </ReactCardFlip>
+   <Fragment>
+   <h1>Projects</h1>
+      
+   <Card style={{ width: '18rem' }}>
+  <Card.Img variant="top" src="holder.js/100px180" />
+  <Card.Body>
+    <Card.Title>Card Title</Card.Title>
+    <Card.Text>
+      Some quick example text to build on the card title and make up the bulk of
+      the card's content.
+    </Card.Text>
+    <Button variant="primary">Go somewhere</Button>
+  </Card.Body>
+</Card>
+
+      </Fragment>
+      
     );
 };
 export default Projects
