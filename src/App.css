@@ -8,8 +8,24 @@
 }
 
 
-.pro1{
-  height: 300px;
+.project{
+  width: 320px;
+  height: 380px;
+  display:flex;
+  align-items:space-between;
+  justify-content:space-between;
+  flex-wrap:wrap;
+}
+
+.button {
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+    width:100px; 
+  
+  
+    top:50%; 
+    left:50%;
 }
 
 .link1{
