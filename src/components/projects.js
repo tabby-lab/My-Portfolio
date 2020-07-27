@@ -13,7 +13,7 @@ const Projects = () => {
   return (
     
       <div className="container">
-        <div className="row">
+        <div className="row center">
           <div className="col-sm project">
             <Card style={{ width: '18rem' }}>
               <Card.Img variant="top" src="../assets1/project1.png" />
