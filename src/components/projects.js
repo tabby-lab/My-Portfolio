@@ -11,8 +11,10 @@ const Projects = () => {
 
 
   return (
+   
     
       <div className="container">
+           <h1>Projects</h1>
         <div className="row center">
           <div className="col-sm project">
             <Card style={{ width: '18rem' }}>

@@ -21,7 +21,7 @@ const Footer = () => {
             </div>
 
 
-            <ul>
+            {/* <ul>
               <li style={{ borderRight: 'solid thin grey' }}>
                 <a href='./'>Home</a>
               </li>
@@ -31,7 +31,7 @@ const Footer = () => {
               <li>
                 <a href='./Contact'>Contact</a>
               </li>
-            </ul>
+            </ul> */}
           
           <div className='col'>
             <ul>

@@ -22,14 +22,12 @@ const Example = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink href="/aboutme"><h5 className="nav-links">About </h5></NavLink>
+              <NavLink href="/aboutme"><h5 className="nav-links">Home</h5></NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="/projects"><h5 className="nav-links">Projects </h5></NavLink>
             </NavItem>
-          <NavItem>
-              <NavLink href="/contact"><h5 className="nav-links">Contact </h5></NavLink>
-            </NavItem>
+          
             
           </Nav>
           
