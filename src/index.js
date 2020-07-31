@@ -7,7 +7,7 @@ import App from './App';
 import 'react-mdl/extra/material.css';
 import 'react-mdl/extra/material.js';
 import { BrowserRouter } from 'react-router-dom';
-import serviceWorker from './serviceWorker'
+import serviceWorker from '../src'
 
 ReactDOM.render(
   <BrowserRouter>
@@ -18,7 +18,7 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-serviceWorker();
+export default serviceWorker;
 
 
 
