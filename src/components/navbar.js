@@ -16,7 +16,7 @@ const Example = (props) => {
 
   return (
     <div>
-      <Navbar  light expand="md">
+      {/* <Navbar  light expand="md">
         
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
@@ -32,7 +32,7 @@ const Example = (props) => {
           </Nav>
           
         </Collapse>
-      </Navbar>
+      </Navbar> */}
     </div>
   );
 }

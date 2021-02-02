@@ -83,7 +83,7 @@ class About extends Component {
                        
                             <div className="row">
 
-                            <i className="fab fa-html5 tech"></i>
+                          
                        
 
                             
